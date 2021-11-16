@@ -1,0 +1,1 @@
+java -Dwebdriver.ie.driver=D:\\Selenium_Practices\\chromedriver\\IEDriverServer.exe -jar selenium-server-standalone-3.9.1.jar -role node -hub http://localhost:4999/grid/register/ -browser "browserName=internet explorer" -port 4447

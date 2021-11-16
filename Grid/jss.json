@@ -1,0 +1,24 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "chrome",
+      "platform": "WINDOWS",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "webdriver.chrome.driver": "D:/Selenium_Practices/chromedriver/chromedriver.exe",
+      "binary":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+    },
+    {
+      "browserName": "firefox",
+      "platform": "WINDOWS",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "webdriver.gecko.driver": "D:/Selenium_Practices/chromedriver/geckodriver.exe",
+      "binary":"C:/Program Files/Mozilla Firefox/firefox.exe"
+    }
+  ],  
+  "port": 5555,
+  "hub": "http://localhost:4444",  
+  "role": "node"  
+}
