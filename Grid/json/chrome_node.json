@@ -1,0 +1,16 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "chrome",
+      "platform": "WINDOWS",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "webdriver.chrome.driver": "D:/Selenium_Practices/chromedriver/chromedriver.exe",
+      "binary":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+    }
+  ],  
+  "port": 5551,
+  "hub": "http://localhost:4444",  
+  "role": "node"  
+}

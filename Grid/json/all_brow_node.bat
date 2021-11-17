@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig all_browsers_node.json

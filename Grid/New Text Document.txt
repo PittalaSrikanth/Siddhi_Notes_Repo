@@ -1,1 +1,0 @@
-java -DWebdriver.gecko.driver="D:\Selenium_Practices\chromedriver\geckodriver.exe" -jar selenium-server-standalone-3.5.3.jar -role node -hub http://192.168.0.3:4444/grid/register/ -browser browserName="firefox" -port 4445

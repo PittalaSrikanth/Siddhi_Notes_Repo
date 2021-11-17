@@ -1,0 +1,1 @@
+java -Dwebdriver.gecko.driver=D:\Selenium_Practices\chromedriver\geckodriver.exe -jar selenium-server-standalone-3.9.1.jar -role node -hub http://localhost:4999/grid/register/ -browser "browserName=firefox,platform=WIN7" -port 4991

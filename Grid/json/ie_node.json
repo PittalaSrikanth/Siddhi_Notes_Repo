@@ -1,0 +1,16 @@
+{
+  "capabilities":
+  [    
+    {
+      "browserName": "internet explorer",
+      "platform": "WIN10",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "webdriver.gecko.driver": "D:/Selenium_Practices/chromedriver/IEDriverServer.exe",
+      "binary":"C:/Program Files/Internet Explorer/iexplore.exe"
+    }
+  ],  
+  "port": 5553,
+  "hub": "http://localhost:4444",  
+  "role": "node"  
+}
