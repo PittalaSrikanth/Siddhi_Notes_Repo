@@ -5,9 +5,7 @@
       "browserName": "firefox",
       "platform": "WIN7",
       "maxInstances": 5,
-      "seleniumProtocol": "WebDriver",
-      "webdriver.gecko.driver": "D:/Selenium_Practices/chromedriver/geckodriver.exe",
-      "binary":"C:/Program Files/Mozilla Firefox/firefox.exe"
+      "seleniumProtocol": "WebDriver"      
     }
   ],  
   "port": 5552,

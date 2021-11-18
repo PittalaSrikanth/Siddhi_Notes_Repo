@@ -5,9 +5,7 @@
       "browserName": "internet explorer",
       "platform": "WIN10",
       "maxInstances": 5,
-      "seleniumProtocol": "WebDriver",
-      "webdriver.gecko.driver": "D:/Selenium_Practices/chromedriver/IEDriverServer.exe",
-      "binary":"C:/Program Files/Internet Explorer/iexplore.exe"
+      "seleniumProtocol": "WebDriver"
     }
   ],  
   "port": 5553,

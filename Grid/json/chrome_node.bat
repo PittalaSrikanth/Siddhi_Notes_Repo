@@ -1,1 +1,1 @@
-java -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig chrome_node.json
+java -Dwebdriver.chrome.driver=D:/Selenium_Practices/chromedriver/chromedriver.exe -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig chrome_node.json

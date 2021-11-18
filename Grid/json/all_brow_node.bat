@@ -1,1 +1,1 @@
-java -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig all_browsers_node.json
+java -Dwebdriver.chrome.driver=D:/Selenium_Practices/chromedriver/chromedriver.exe -Dwebdriver.gecko.driver=D:/Selenium_Practices/chromedriver/geckodriver.exe -Dwebdriver.gecko.driver=D:/Selenium_Practices/chromedriver/IEDriverServer.exe  -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig all_browsers_node.json

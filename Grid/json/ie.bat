@@ -1,1 +1,1 @@
-java -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig ie_node.json
+java -Dwebdriver.ie.driver=D:/Selenium_Practices/chromedriver/IEDriverServer.exe -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig ie_node.json

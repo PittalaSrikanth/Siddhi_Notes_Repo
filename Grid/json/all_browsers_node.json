@@ -5,25 +5,19 @@
       "browserName": "chrome",
       "platform": "WINDOWS",
       "maxInstances": 5,
-      "seleniumProtocol": "WebDriver",
-      "webdriver.chrome.driver": "D:/Selenium_Practices/chromedriver/chromedriver.exe",
-      "binary":"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+      "seleniumProtocol": "WebDriver"
     },
     {
       "browserName": "firefox",
       "platform": "WINDOWS",
       "maxInstances": 5,
-      "seleniumProtocol": "WebDriver",
-      "webdriver.gecko.driver": "D:/Selenium_Practices/chromedriver/geckodriver.exe",
-      "binary":"C:/Program Files/Mozilla Firefox/firefox.exe"
+      "seleniumProtocol": "WebDriver"
     },
 	{
       "browserName": "internet explorer",
       "platform": "WINDOWS",
       "maxInstances": 5,
-      "seleniumProtocol": "WebDriver",
-      "webdriver.gecko.driver": "D:/Selenium_Practices/chromedriver/IEDriverServer.exe",
-      "binary":"C:/Program Files/Internet Explorer/iexplore.exe"
+      "seleniumProtocol": "WebDriver"
     }
   ],  
   "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",

@@ -1,1 +1,1 @@
-java -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig firefox_node.json
+java -Dwebdriver.gecko.driver=D:/Selenium_Practices/chromedriver/geckodriver.exe -jar selenium-server-standalone-3.9.1.jar -role node -nodeConfig firefox_node.json
