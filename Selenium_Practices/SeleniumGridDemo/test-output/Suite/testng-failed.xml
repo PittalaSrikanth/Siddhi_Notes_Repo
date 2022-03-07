@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="testPack.SGDClassOne">
+        <methods>
+          <include name="ClassOneMethod4"/>
+          <include name="ClassOneMethod5"/>
+          <include name="ClassOneMethod1"/>
+          <include name="ClassOneMethod2"/>
+          <include name="ClassOneMethod3"/>
+        </methods>
+      </class> <!-- testPack.SGDClassOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

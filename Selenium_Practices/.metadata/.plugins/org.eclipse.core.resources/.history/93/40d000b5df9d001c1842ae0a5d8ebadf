@@ -1,0 +1,49 @@
+package dayOne;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.xml.utils.URI;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.SessionId;
+
+public class BrowserLaunching {
+
+	public static void main(String[] args) throws InterruptedException, MalformedURLException 
+	{
+		
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver driver = new  ChromeDriver();	
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);		
+		driver.get("https://www.instagram.com/");
+		
+		
+		Dimension windowsize =	driver.manage().window().getSize();
+		
+		System.out.println(windowsize.height);
+		System.out.println(windowsize.width);
+
+		driver.manage().window().maximize();
+		Thread.sleep(5000);
+		driver.manage().window().fullscreen();
+	
+		Thread.sleep(5000);
+		Dimension windowsize1 =	driver.manage().window().getSize();
+		System.out.println(windowsize1.height);
+		System.out.println(windowsize1.width);
+		
+		driver.close();
+		driver.quit();
+		
+		
+	}
+
+}

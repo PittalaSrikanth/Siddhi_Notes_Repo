@@ -1,0 +1,6 @@
+stepDefinations\Steps.class
+stepDefinations\BaseClass.class
+pageObjects\LoginPage.class
+pageObjects\SearchCustomerPage.class
+pageObjects\AddCustomerPage.class
+Utilities\DriverWait.class

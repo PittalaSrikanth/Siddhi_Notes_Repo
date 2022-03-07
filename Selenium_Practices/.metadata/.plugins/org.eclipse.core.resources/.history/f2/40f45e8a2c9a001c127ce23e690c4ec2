@@ -1,0 +1,30 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.*;
+
+public class AddCustomerPage 
+{
+	public WebDriver pdriver;
+	public AddCustomerPage(WebDriver vdriver ) 
+	{
+		pdriver = vdriver;
+		PageFactory.initElements(vdriver, this);
+	}
+	@FindBy(xpath="//*[text()=' Customers']")
+	@CacheLookup
+	WebElement Customers;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,91 @@
+package PackageOne;
+
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.Rectangle;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class BrowserLunching {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+			
+//		Lanching chrome brower
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver chrome = new ChromeDriver();
+
+//		Navigating to google url
+		chrome.get("https://www.google.co.in/");
+		
+	
+		
+		chrome.manage().window().maximize();
+		
+		
+		chrome.manage().window().fullscreen();
+		
+		
+		
+		Dimension dim =	chrome.manage().window().getSize();
+		System.out.println(dim.getHeight());
+		System.out.println(dim.getWidth());
+		
+		
+		
+		Point window = 	chrome.manage().window().getPosition();
+		System.out.println(window.getX());
+		System.out.println(window.getY());
+		
+		
+		Point p = new Point(500, 500);
+		chrome.manage().window().setPosition(p);
+		
+		
+		
+		chrome.manage().window().maximize();
+		Thread.sleep(8000);
+		chrome.manage().window().fullscreen();
+		Thread.sleep(8000);
+		
+		
+		Point window = 	chrome.manage().window().getPosition();
+		
+		System.out.println(window.getX());
+		System.out.println(window.getY());
+		
+		
+		Dimension dim =  chrome.manage().window().getSize();
+		System.out.println(dim.getHeight());
+		System.out.println(dim.getWidth());
+		
+		Point p = new Point(500, 500);
+		
+		chrome.manage().window().setPosition(p);
+		Thread.sleep(8000);
+		
+		
+		chrome.navigate()
+		
+		
+		chrome.close();
+		chrome.quit();
+		
+//		
+		
+		
+		
+	}
+
+}

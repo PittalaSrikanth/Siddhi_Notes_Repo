@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82715" started-at="2021-11-18T13:08:35Z" finished-at="2021-11-18T13:09:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="82715" started-at="2021-11-18T13:08:35Z" finished-at="2021-11-18T13:09:57Z">
+      <class name="testPack.SGDClassFour">
+        <test-method status="PASS" signature="ClassFourMethod1()[pri:0, instance:testPack.SGDClassFour@402e37bc]" name="ClassFourMethod1" duration-ms="13312" started-at="2021-11-18T18:39:18Z" finished-at="2021-11-18T18:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFourMethod1 -->
+        <test-method status="PASS" signature="ClassFourMethod2()[pri:0, instance:testPack.SGDClassFour@402e37bc]" name="ClassFourMethod2" duration-ms="16911" started-at="2021-11-18T18:39:20Z" finished-at="2021-11-18T18:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFourMethod2 -->
+        <test-method status="PASS" signature="ClassFourMethod3()[pri:0, instance:testPack.SGDClassFour@402e37bc]" name="ClassFourMethod3" duration-ms="12519" started-at="2021-11-18T18:39:24Z" finished-at="2021-11-18T18:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFourMethod3 -->
+        <test-method status="PASS" signature="ClassFourMethod4()[pri:0, instance:testPack.SGDClassFour@402e37bc]" name="ClassFourMethod4" duration-ms="14001" started-at="2021-11-18T18:39:26Z" finished-at="2021-11-18T18:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFourMethod4 -->
+        <test-method status="PASS" signature="ClassFourMethod5()[pri:0, instance:testPack.SGDClassFour@402e37bc]" name="ClassFourMethod5" duration-ms="12689" started-at="2021-11-18T18:39:31Z" finished-at="2021-11-18T18:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFourMethod5 -->
+      </class> <!-- testPack.SGDClassFour -->
+      <class name="testPack.SGDClassOne">
+        <test-method status="PASS" signature="ClassOneMethod4()[pri:0, instance:testPack.SGDClassOne@501edcf1]" name="ClassOneMethod4" duration-ms="15695" started-at="2021-11-18T18:38:35Z" finished-at="2021-11-18T18:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassOneMethod4 -->
+        <test-method status="PASS" signature="ClassOneMethod5()[pri:0, instance:testPack.SGDClassOne@501edcf1]" name="ClassOneMethod5" duration-ms="15914" started-at="2021-11-18T18:38:35Z" finished-at="2021-11-18T18:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassOneMethod5 -->
+        <test-method status="PASS" signature="ClassOneMethod3()[pri:0, instance:testPack.SGDClassOne@501edcf1]" name="ClassOneMethod3" duration-ms="16500" started-at="2021-11-18T18:38:35Z" finished-at="2021-11-18T18:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassOneMethod3 -->
+        <test-method status="PASS" signature="ClassOneMethod2()[pri:0, instance:testPack.SGDClassOne@501edcf1]" name="ClassOneMethod2" duration-ms="16068" started-at="2021-11-18T18:38:35Z" finished-at="2021-11-18T18:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassOneMethod2 -->
+        <test-method status="PASS" signature="ClassOneMethod1()[pri:0, instance:testPack.SGDClassOne@501edcf1]" name="ClassOneMethod1" duration-ms="14616" started-at="2021-11-18T18:38:35Z" finished-at="2021-11-18T18:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassOneMethod1 -->
+      </class> <!-- testPack.SGDClassOne -->
+      <class name="testPack.SGDClassThree">
+        <test-method status="PASS" signature="ClassThreeMethod1()[pri:0, instance:testPack.SGDClassThree@197d671]" name="ClassThreeMethod1" duration-ms="14149" started-at="2021-11-18T18:39:04Z" finished-at="2021-11-18T18:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassThreeMethod1 -->
+        <test-method status="PASS" signature="ClassThreeMethod2()[pri:0, instance:testPack.SGDClassThree@197d671]" name="ClassThreeMethod2" duration-ms="12642" started-at="2021-11-18T18:39:07Z" finished-at="2021-11-18T18:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassThreeMethod2 -->
+        <test-method status="PASS" signature="ClassThreeMethod3()[pri:0, instance:testPack.SGDClassThree@197d671]" name="ClassThreeMethod3" duration-ms="17562" started-at="2021-11-18T18:39:08Z" finished-at="2021-11-18T18:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassThreeMethod3 -->
+        <test-method status="PASS" signature="ClassThreeMethod4()[pri:0, instance:testPack.SGDClassThree@197d671]" name="ClassThreeMethod4" duration-ms="13113" started-at="2021-11-18T18:39:11Z" finished-at="2021-11-18T18:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassThreeMethod4 -->
+        <test-method status="PASS" signature="ClassThreeMethod5()[pri:0, instance:testPack.SGDClassThree@197d671]" name="ClassThreeMethod5" duration-ms="22482" started-at="2021-11-18T18:39:11Z" finished-at="2021-11-18T18:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassThreeMethod5 -->
+      </class> <!-- testPack.SGDClassThree -->
+      <class name="testPack.SGDClassTwo">
+        <test-method status="PASS" signature="ClassTwoMethod1()[pri:0, instance:testPack.SGDClassTwo@27c86f2d]" name="ClassTwoMethod1" duration-ms="18786" started-at="2021-11-18T18:38:49Z" finished-at="2021-11-18T18:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassTwoMethod1 -->
+        <test-method status="PASS" signature="ClassTwoMethod2()[pri:0, instance:testPack.SGDClassTwo@27c86f2d]" name="ClassTwoMethod2" duration-ms="13520" started-at="2021-11-18T18:38:50Z" finished-at="2021-11-18T18:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassTwoMethod2 -->
+        <test-method status="PASS" signature="ClassTwoMethod3()[pri:0, instance:testPack.SGDClassTwo@27c86f2d]" name="ClassTwoMethod3" duration-ms="16776" started-at="2021-11-18T18:38:51Z" finished-at="2021-11-18T18:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassTwoMethod3 -->
+        <test-method status="PASS" signature="ClassTwoMethod4()[pri:0, instance:testPack.SGDClassTwo@27c86f2d]" name="ClassTwoMethod4" duration-ms="20293" started-at="2021-11-18T18:38:51Z" finished-at="2021-11-18T18:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassTwoMethod4 -->
+        <test-method status="PASS" signature="ClassTwoMethod5()[pri:0, instance:testPack.SGDClassTwo@27c86f2d]" name="ClassTwoMethod5" duration-ms="19806" started-at="2021-11-18T18:38:51Z" finished-at="2021-11-18T18:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassTwoMethod5 -->
+      </class> <!-- testPack.SGDClassTwo -->
+      <class name="testPack.SGDClassFive">
+        <test-method status="PASS" signature="ClassFiveMethod1()[pri:0, instance:testPack.SGDClassFive@79ad8b2f]" name="ClassFiveMethod1" duration-ms="14407" started-at="2021-11-18T18:39:34Z" finished-at="2021-11-18T18:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFiveMethod1 -->
+        <test-method status="PASS" signature="ClassFiveMethod2()[pri:0, instance:testPack.SGDClassFive@79ad8b2f]" name="ClassFiveMethod2" duration-ms="18069" started-at="2021-11-18T18:39:37Z" finished-at="2021-11-18T18:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFiveMethod2 -->
+        <test-method status="PASS" signature="ClassFiveMethod3()[pri:0, instance:testPack.SGDClassFive@79ad8b2f]" name="ClassFiveMethod3" duration-ms="18263" started-at="2021-11-18T18:39:37Z" finished-at="2021-11-18T18:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFiveMethod3 -->
+        <test-method status="PASS" signature="ClassFiveMethod4()[pri:0, instance:testPack.SGDClassFive@79ad8b2f]" name="ClassFiveMethod4" duration-ms="15675" started-at="2021-11-18T18:39:40Z" finished-at="2021-11-18T18:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFiveMethod4 -->
+        <test-method status="PASS" signature="ClassFiveMethod5()[pri:0, instance:testPack.SGDClassFive@79ad8b2f]" name="ClassFiveMethod5" duration-ms="13322" started-at="2021-11-18T18:39:44Z" finished-at="2021-11-18T18:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassFiveMethod5 -->
+      </class> <!-- testPack.SGDClassFive -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

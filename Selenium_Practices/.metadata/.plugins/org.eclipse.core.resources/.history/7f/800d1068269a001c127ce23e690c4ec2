@@ -1,0 +1,62 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.*;
+
+public class AddCustomerPage 
+{
+	public WebDriver pdriver;
+	public AddCustomerPage(WebDriver vdriver ) 
+	{
+		pdriver = vdriver;
+		PageFactory.initElements(vdriver, this);
+	}
+	@FindBy(xpath="//*[text()=' Customers']")
+	@CacheLookup
+	WebElement Customers;
+	
+	@FindBy(id="Password")
+	@CacheLookup
+	WebElement Password;
+	
+	@FindBy(xpath="//button[text()='Log in']")
+	@CacheLookup
+	WebElement loginbtn;
+	
+	@FindBy(xpath="//a[text()='Logout']")
+	@CacheLookup
+	WebElement logoutbtn;
+	
+	public void setEmail(String email) throws InterruptedException 
+	{
+		UserName.clear();
+		UserName.sendKeys(email);
+	}
+	
+	public void setPassword(String pass) 
+	{
+		Password.clear();
+		Password.sendKeys(pass);
+	}
+	
+	public void clickLoginBtn() 
+	{
+		loginbtn.click();
+	}
+	
+	public void clickLogoutBtn() 
+	{
+		logoutbtn.click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Appium.ApkInstallaion&apos; to &apos;InstallAPKEmulator&apos;&#x0D;&#x0A;- Original project: &apos;DemoOne&apos;&#x0D;&#x0A;- Original element: &apos;Appium.ApkInstallaion&apos;&#x0D;&#x0A;- Renamed element: &apos;Appium.InstallAPKEmulator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ApkInstallaion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Appium{ApkInstallaion.java[ApkInstallaion" matchStrategy="1" name="InstallAPKEmulator" qualified="false" references="true" similarDeclarations="false" stamp="1633114283702" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,55 @@
+package PackageOne;
+
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.Rectangle;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class BrowserLunching {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+			
+//		Lanching chrome brower
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver chrome = new ChromeDriver();
+
+//		Navigating to google url
+		chrome.get("https://www.google.co.in/");
+		
+		Cookie ck = new Cookie("Siddhi","Bhongir");
+		
+		
+		
+		chrome.manage().addCookie(ck);
+		Set<Cookie>	cookies = chrome.manage().getCookies();
+		
+		for(Cookie cookie:cookies ) 
+		{
+			System.out.println(cookie.getName() + " : "+ cookie.getValue());
+		}
+		
+//		
+		
+		chrome.close();
+		chrome.quit();
+		
+//		
+		
+		
+		
+	}
+
+}

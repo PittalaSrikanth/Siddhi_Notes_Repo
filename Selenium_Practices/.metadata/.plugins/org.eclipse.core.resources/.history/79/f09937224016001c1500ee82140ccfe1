@@ -1,0 +1,36 @@
+package PackageOne;
+
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Alerts {
+	public static void main(String[] args) throws InterruptedException
+	{
+
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+
+//		Launching chrome Browser
+		WebDriver chrome = new ChromeDriver();
+		
+//		Navigating to toolsqa url
+		chrome.get("https://demoqa.com/alerts");
+		
+//		click on alert button
+		chrome.findElement(By.id("alertButton")).click();
+		
+		
+		
+//		Browser close
+		chrome.close();
+		
+//		Browser quit
+		chrome.quit();
+
+	}
+}

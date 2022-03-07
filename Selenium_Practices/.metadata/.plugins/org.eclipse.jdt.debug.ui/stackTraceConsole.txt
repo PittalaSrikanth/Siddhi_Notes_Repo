@@ -1,0 +1,5 @@
+
+
+default void onTestStart(ITestResult result) {
+    // not implemented
+  }

@@ -1,0 +1,100 @@
+package stepDefinations;
+
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.*;
+import pageObjects.LoginPage;
+
+public class Steps extends BaseClass
+{	
+	@Given("User Launch Chrome browser")
+	public void user_Launch_Chrome_browser() 
+	{
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Configurations//Drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+		lpage = new LoginPage(driver);
+	}
+
+	@When("User opens URL {string}")
+	public void user_opens_URL(String url) 
+	{
+		driver.get(url);
+	}
+
+	@When("User enters Email as {string} and Password as {string}")
+	public void user_enters_Email_as_and_Password_as(String email, String pass) throws InterruptedException
+	{
+		lpage.setEmail(email);
+		lpage.setPassword(pass);
+	}
+
+	@When("Click on Login")
+	public void click_on_Login() 
+	{
+	    lpage.clickLoginBtn();
+	}
+
+	@Then("Page Title should be {string}")
+	public void page_Title_should_be(String title) 
+	{
+	   
+	}
+
+	@When("User click on Log out link")
+	public void user_click_on_Log_out_link() 
+	{
+	    lpage.clickLogoutBtn();
+	}
+
+	@Then("close browser")
+	public void close_browser() 
+	{
+	    driver.close();
+	    driver.quit();
+	}
+	
+	// cutomer page definations
+	@Then("User can view Dashboad")
+	public void user_can_view_Dashboad() 
+	{
+	    
+	}
+
+	@Then("User click on customers Menu")
+	public void user_click_on_customers_Menu() 
+	{
+	    
+	}
+
+	@Then("click on customers Menu Item")
+	public void click_on_customers_Menu_Item() 
+	{
+	    
+	}
+
+	@Then("click on Add new button")
+	public void click_on_Add_new_button() 
+	{
+	    
+	}
+
+	@Then("User can view Add new customer page")
+	public void user_can_view_Add_new_customer_page() 
+	{
+	    
+	}
+
+	@When("User enter customer inf And click on Save button")
+	public void user_enter_customer_inf_And_click_on_Save_button() 
+	{
+	    
+	}
+
+	@Then("User can view confirma message {string}")
+	public void user_can_view_confirma_message(String string) 
+	{ 
+		
+	}
+
+}

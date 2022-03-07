@@ -1,0 +1,164 @@
+package PackageOne;
+
+import java.util.List;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.Rectangle;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class BrowserLunching {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+			
+//		Lanching chrome brower
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver chrome = new ChromeDriver();
+		
+//		Lanching Firefox brower
+		System.setProperty("webdriver.gecko.driver","D:\\Selenium_Practices\\chromedriver\\geckodriver.exe");
+		WebDriver firefox = new FirefoxDriver();		
+		
+////		Lanching ie brower
+//		System.setProperty("webdriver.ie.driver","D:\\Selenium_Practices\\chromedriver\\ie.exe");
+//		WebDriver ie = new InternetExplorerDriver();
+		
+//		
+////		WebDriver methods:
+//		
+////		close()
+//		
+//		
+//		chrome.close();
+//		
+//				
+//				
+////		getTitle()
+//		
+//		
+//		WebDriver chrome = new ChromeDriver();
+//		String title =	chrome.getTitle();
+//		System.out.println(title);
+//		
+////		getCurrentUrl()
+//		
+//		
+//		WebDriver chrome = new ChromeDriver();
+//		String url =	chrome.getCurrentUrl();
+//		System.out.println(url);		
+//	
+//		
+////		getPageSource()
+//		
+//		
+//		WebDriver chrome = new ChromeDriver();
+//		String source =	chrome.getPageSource();
+//		System.out.println(source);
+//			
+//		
+////		get()
+//		WebDriver chrome = new ChromeDriver();
+//		chrome.get("https://www.google.co.in/");
+//			
+////		quit()
+//		WebDriver chrome = new ChromeDriver();
+//		chrome.quit();
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		 
+//		System.setProperty("webdriver.gecko.driver","D:\\Selenium_Practices\\chromedriver\\geckodriver.exe");
+//		WebDriver chrome = new ChromeDriver();
+//		chrome.get("https://www.google.co.in/");
+//		System.out.println(chrome.getTitle());
+//		System.out.println(chrome.getCurrentUrl());
+////		System.out.println(chrome.getPageSource());
+//		
+//		WebElement countryDorpDown = chrome.findElement(By.name("country"));
+//		
+//		Select select = new Select(countryDorpDown);
+//		
+//		Thread.sleep(25000);
+//		
+//		System.out.println(chrome.getWindowHandles());
+//		
+//		Set<String> windows = chrome.getWindowHandles();
+//		for(String window:windows)
+//		{
+//			System.out.println(window);
+//			chrome.switchTo().window(window);
+//			Thread.sleep(2000);
+//		}
+//		
+//		
+//		
+//		WebDriver chrome = new ChromeDriver();
+//		List<WebElement> buttons =chrome.findElements(By.name("XXXXX"));
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//
+//		
+//		
+//		WebDriver chrome = new ChromeDriver();
+//		chrome.findElement(By.id("xxxx")).submit();
+//			
+//		
+//		
+//		
+//		
+//		
+//		
+		
+		
+		
+//		
+//		
+//		Thread.sleep(5000);
+//		chrome.close();
+//		chrome.quit();
+//		
+//		
+		
+		
+		
+	}
+
+}

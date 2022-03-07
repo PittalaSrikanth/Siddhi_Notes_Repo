@@ -1,0 +1,125 @@
+package Oct;
+
+import java.io.File;
+import java.io.IOException;
+import java.sql.Driver;
+import java.util.Set;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Navigation;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class ChromeBrowser {
+
+	public static void main(String[] args) throws InterruptedException, IOException 
+	{
+		System.setProperty("webdriver.chrome.driver","D:\\10112021\\chromedriver_win32 (8)\\chromedriver.exe");
+		ChromeDriver chrome = new ChromeDriver();		
+		Set<String>	 caps = chrome.getCapabilities().getCapabilityNames();
+		for(String cap:caps) 
+		{
+			System.out.println(cap);
+		}
+		((RemoteWebDriver)chrome).getSessionId();
+		System.out.println(chrome.getCapabilities().isJavascriptEnabled());
+		System.out.println(((RemoteWebDriver)chrome).getCapabilities().getBrowserName());
+		System.out.println(((RemoteWebDriver)chrome).getCapabilities().getVersion());
+		System.out.println(((RemoteWebDriver)chrome).getCapabilities().getPlatform());
+		
+		System.out.println(((RemoteWebDriver)chrome).getSessionId());
+		
+		
+		
+		chrome.manage().window().maximize();
+		chrome.get("https://www.google.co.in/");
+		chrome.manage().window().fullscreen();
+
+		String title =	chrome.getTitle();
+		System.out.println(title);
+		
+		String sourcecode =	chrome.getPageSource();
+		System.out.println(sourcecode);
+		
+		String url = chrome.getCurrentUrl();
+		System.out.println(url);
+		
+		chrome.get("https://www.google.co.in/");
+		
+		chrome.navigate().back();
+		chrome.navigate().forward();
+		chrome.navigate().refresh();
+		
+		WebElement ele = chrome.findElement(By.id(""));
+		Dimension windowsize =	chrome.manage().window().getSize();
+		
+		System.out.println(windowsize.getWidth());
+		System.out.println(windowsize.getHeight());
+		Dimension dim = new Dimension(500,600);
+		chrome.manage().window().setSize(dim);
+		
+		
+		Point position =	chrome.manage().window().getPosition();
+		System.out.println(position.getX());
+		System.out.println(position.getY());
+		
+		
+		Point p = new Point(2,4);
+		chrome.manage().window().setPosition(p);
+		
+		chrome.findElement(By.id("")).getRect().getHeight();
+		chrome.findElement(By.cssSelector("")).getRect().getWidth();
+		
+		
+		File source =	chrome.findElement(By.name("q")).getScreenshotAs(OutputType.FILE);
+		File dest = new File("D:\\seleniumScreenshots\\test.png");		
+		FileUtils.copyFile(source, dest);
+		
+		Cookie k = new Cookie("Siddhi","Bhongir");		
+		chrome.manage().addCookie(k);
+		
+		
+		
+		Set<Cookie> cookies =	chrome.manage().getCookies();//4
+		
+		for(Cookie cookie:cookies) 
+		{
+			System.out.println(cookie.getName() +"========"+cookie.getValue());
+			System.out.println(cookie.getPath());
+			
+		}
+		
+		chrome.manage().deleteCookieNamed("Siddhi");
+		
+		Set<Cookie> cookies1 =	chrome.manage().getCookies();//4
+		
+		for(Cookie cookie:cookies1) 
+		{
+			System.out.println(cookie.getName() +"========"+ cookie.getValue());
+			
+		}
+		
+		
+		System.out.println("***********************************");
+		Cookie abc =	chrome.manage().getCookieNamed("NID");
+		System.out.println(abc);
+		
+		
+//		Thread.sleep(5000);
+		chrome.close();
+		chrome.quit();
+		
+		
+		
+		
+		
+	}
+
+}

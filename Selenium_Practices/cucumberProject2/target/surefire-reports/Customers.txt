@@ -1,0 +1,139 @@
+-------------------------------------------------------------------------------
+Test set: Customers
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.356 s <<< FAILURE! - in Customers
+Customers.Add a new Customer  Time elapsed: 0.321 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "User Launch Chrome browser" is undefined. You can implement it using the snippet(s) below:
+
+@Given("User Launch Chrome browser")
+public void user_launch_chrome_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("User opens URL {string}")
+public void user_opens_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters Email as {string} and Password as {string}")
+public void user_enters_email_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login")
+public void click_on_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User can view Dashboad")
+public void user_can_view_dashboad() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User click on customers Menu")
+public void user_click_on_customers_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("click on customers Menu Item")
+public void click_on_customers_menu_item() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("click on Add new button")
+public void click_on_add_new_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User can view Add new customer page")
+public void user_can_view_add_new_customer_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enter customer inf And click on Save button")
+public void user_enter_customer_inf_and_click_on_save_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User can view confirma message {string}")
+public void user_can_view_confirma_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("close browser")
+public void close_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Customers.Search Customer by EMailID  Time elapsed: 0.034 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "User Launch Chrome browser" is undefined. You can implement it using the snippet(s) below:
+
+@Given("User Launch Chrome browser")
+public void user_launch_chrome_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("User opens URL {string}")
+public void user_opens_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters Email as {string} and Password as {string}")
+public void user_enters_email_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login")
+public void click_on_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User can view Dashboad")
+public void user_can_view_dashboad() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User click on customers Menu")
+public void user_click_on_customers_menu() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on customers Menu Item")
+public void click_on_customers_menu_item() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter customer EMail")
+public void enter_customer_e_mail() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on search button")
+public void click_on_search_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should found Email in the Search table")
+public void user_should_found_email_in_the_search_table() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("close browser")
+public void close_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

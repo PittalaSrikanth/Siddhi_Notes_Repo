@@ -1,0 +1,25 @@
+package dayOne;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BrowserLaunching {
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver chrome = new ChromeDriver();
+
+		System.setProperty("webdriver.gecko.driver","D:\\Selenium_Practices\\chromedriver\\geckodriver.exe");
+		WebDriver ff = new FirefoxDriver();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

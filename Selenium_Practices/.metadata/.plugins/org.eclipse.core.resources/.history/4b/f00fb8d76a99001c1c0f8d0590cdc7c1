@@ -1,0 +1,33 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.*;
+
+public class LoginPage 
+{
+	public WebDriver pdriver;
+	public LoginPage(WebDriver vdriver ) 
+	{
+		pdriver = vdriver;		
+	}
+	@FindBy(id="Email")
+	@CacheLookup
+	WebElement UserName;
+	
+	@FindBy(id="Password")
+	@CacheLookup
+	WebElement Password;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

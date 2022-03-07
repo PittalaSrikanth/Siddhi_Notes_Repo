@@ -1,0 +1,38 @@
+package Oct;
+
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
+import com.gargoylesoftware.htmlunit.BrowserVersion;
+import com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName;
+
+public class HtmlUnitDriverBL {
+
+	public static void main(String[] args) 
+	{
+//		HtmlUnitDriver firefox = new HtmlUnitDriver(true);
+		
+		HtmlUnitDriver firefox = new HtmlUnitDriver(BrowserVersion.FIREFOX_45);
+		
+		firefox.manage().window().maximize();
+		
+		
+		
+		
+		
+		
+		System.out.println(firefox.getCapabilities().getBrowserName());
+		System.out.println(firefox.getCapabilities().getVersion());
+		
+		firefox.get("https://demoqa.com/automation-practice-form");
+		firefox.manage().window().fullscreen();
+
+		String title =	firefox.getTitle();
+		System.out.println(title);
+		
+		firefox.close();
+		firefox.quit();
+		
+		
+	}
+
+}

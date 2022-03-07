@@ -1,0 +1,48 @@
+package dayOne;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.SessionId;
+
+public class BrowserLaunching {
+
+	public static void main(String[] args) 
+	{
+		
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver driver = new  ChromeDriver();
+		
+		driver.get("https://www.instagram.com/");
+		
+		String title =	driver.getTitle();		
+		
+		System.out.println(title);
+		
+		
+		String url =	driver.getCurrentUrl();	
+		
+		System.out.println(url);
+		
+		
+//		String pageSource =	driver.getPageSource();
+//		System.out.println(pageSource);
+		
+		
+		SessionId sid=	((RemoteWebDriver)driver).getSessionId();
+		System.out.println(sid);
+		
+		Platform platform = ((RemoteWebDriver)driver).getCapabilities().getPlatform();
+		System.out.println(platform);
+		
+		String version = ((RemoteWebDriver)driver).getCapabilities().getVersion();
+		System.out.println(version);
+		
+		driver.close();
+		driver.quit();
+		
+		
+	}
+
+}

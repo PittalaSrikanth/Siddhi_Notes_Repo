@@ -1,0 +1,41 @@
+package PackageOne;
+
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Frames {
+	public static void main(String[] args) throws InterruptedException
+	{
+
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+
+//		Launching chrome Browser
+		WebDriver chrome = new ChromeDriver();
+		
+//		Navigating to toolsqa url
+		chrome.get("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_button_form");
+		
+//		switch to frame
+//		chrome.switchTo().frame("iframeResult");
+//		chrome.switchTo().frame(0);
+		WebElement frametag = chrome.findElement(By.id("iframeResult"));
+		chrome.switchTo().frame(frametag);
+		chrome.findElement(By.xpath("//button[@value='Submit']")).click();
+		
+
+		
+		
+		
+		
+//		Browser close
+		chrome.close();
+		
+//		Browser quit
+		chrome.quit();
+
+	}
+}

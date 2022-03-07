@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.hoursplus.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hoursplus.testCases.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_Login_ValidCredentails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hoursplus.testCases.Login -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

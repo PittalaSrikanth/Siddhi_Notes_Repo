@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeleniumProject&apos; to &apos;SeleniumGrid&apos;" description="Rename resource &apos;SeleniumProject&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SeleniumProject" name="SeleniumGrid" stamp="1623159874924" updateReferences="true"/>
+</session>

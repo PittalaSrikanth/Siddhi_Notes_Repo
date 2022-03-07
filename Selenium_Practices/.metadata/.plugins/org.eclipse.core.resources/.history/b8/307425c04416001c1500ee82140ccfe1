@@ -1,0 +1,54 @@
+package PackageOne;
+
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Frames {
+	public static void main(String[] args) throws InterruptedException
+	{
+
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+
+//		Launching chrome Browser
+		WebDriver chrome = new ChromeDriver();
+		
+//		Navigating to toolsqa url
+		chrome.get("https://demoqa.com/alerts");
+		
+//		alert accept
+		chrome.findElement(By.id("alertButton")).click();
+		Thread.sleep(2000);
+		Alert alert = chrome.switchTo().alert();
+		alert.accept();
+		
+//		alert accept
+		chrome.findElement(By.id("timerAlertButton")).click();
+		Thread.sleep(6000);
+		chrome.switchTo().alert().accept();
+
+//		printing text and accept
+		chrome.findElement(By.id("confirmButton")).click();
+		Thread.sleep(2000);
+		String alertText =	chrome.switchTo().alert().getText();
+		System.out.println(alertText);
+		chrome.switchTo().alert().accept();
+		
+//		alert dismiss
+		chrome.findElement(By.id("promtButton")).click();
+		Thread.sleep(2000);
+		chrome.switchTo().alert().dismiss();
+		
+		
+		
+		
+//		Browser close
+		chrome.close();
+		
+//		Browser quit
+		chrome.quit();
+
+	}
+}

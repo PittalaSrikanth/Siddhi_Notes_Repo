@@ -1,0 +1,57 @@
+package PackageOne;
+
+import java.net.URL;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.Rectangle;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class BrowserLunching {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+			
+//		Lanching chrome brower
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver chrome = new ChromeDriver();
+
+//		Navigating to google url
+		chrome.get("https://www.google.co.in/");
+		
+//		Print WindowHandle
+		String windowHandle = 	chrome.getWindowHandle();
+		System.out.println(windowHandle);
+		
+//		Print WindowHandles		
+		Set<String> windowsHandles = chrome.getWindowHandles();
+		for(String window:windowsHandles)
+		{
+			System.out.println(window);
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

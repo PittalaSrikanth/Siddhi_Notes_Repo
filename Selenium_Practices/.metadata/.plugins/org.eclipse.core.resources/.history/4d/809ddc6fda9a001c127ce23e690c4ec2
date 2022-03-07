@@ -1,0 +1,14 @@
+package dayOne;
+
+
+
+public class BrowserLaunching {
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package TestNGPrac;
+
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+@Test()
+public class ClassOne
+{
+	@BeforeMethod
+	public void classOnemethodOne() throws InterruptedException 
+	{
+		System.out.println("Classone - method One");
+	}	
+	@Test()
+	public void classOnemethodTwo() 
+	{
+		System.out.println("Classone - method Two");
+//		Assert.assertTrue(false);
+	}
+	@Test()
+	public void classOnemethodThree() 
+	{
+		System.out.println("Classone - method Three");
+	}
+	@Test()
+	public void classOnemethodFour() 
+	{
+		System.out.println("Classone - method Four");
+	}
+	@Test()
+	public void classOnemethodFive() 
+	{
+		System.out.println("Classone - method Five");
+	}
+	
+	
+}

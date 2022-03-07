@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: Home page validation
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 54.734 s <<< FAILURE! - in Home page validation
+Home page validation.Login with valid credentials to check QuickLanuch options  - Feature 2, Scenario -1 #1  Time elapsed: 54.589 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #welcome
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UAU9ODK', ip: '172.31.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13696, moz:profile: C:\Users\spittala\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1c9fa8d3-3976-489a-977f-616f337f854f
+*** Element info: {Using=id, value=welcome}
+
+Home page validation.Login with valid credentials to check QuickLanuch options  - Feature 2, Scenario -1 #2  Time elapsed: 0.094 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Vibha\Software\geckodriver-v0.26.0-win64\geckodriver.exe
+
+Home page validation.Login with valid credentials to check Manu Options - Feature 2, Scenario -2  Time elapsed: 0.049 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Vibha\Software\geckodriver-v0.26.0-win64\geckodriver.exe
+

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: Login to HRM Application
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 53.276 s <<< FAILURE! - in Login to HRM Application
+Login to HRM Application.Login with valid credentials - Feature 1, Scenario -1  Time elapsed: 53.276 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #welcome
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UAU9ODK', ip: '172.31.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15516, moz:profile: C:\Users\spittala\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 56eadaf1-0088-42b9-ae13-55ac0b816423
+*** Element info: {Using=id, value=welcome}
+
