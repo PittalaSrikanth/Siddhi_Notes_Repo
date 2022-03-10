@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
-    <fullyQualifiedTypeName name="TestNGPrac.ScreehshotPage"/>
-    <fullyQualifiedTypeName name="TestNGPrac.DriverInst"/>
-    <fullyQualifiedTypeName name="TestNGPrac.ClassFive"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Listeners"/>
     <fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName"/>
     <fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.javascript.host.URL"/>
     <fullyQualifiedTypeName name="PackageOne.WebDriverManagerBrowsers"/>
@@ -42,12 +37,10 @@
     <fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
     <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
     <fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="stepDefinations.BaseClass"/>
     <fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
     <fullyQualifiedTypeName name="pageObjects.AddCustomerPage"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
     <fullyQualifiedTypeName name="Utilities.DriverWait"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
@@ -57,7 +50,14 @@
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.util.Cookie"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Cookie"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 </qualifiedTypeNameHistroy>

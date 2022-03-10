@@ -12,9 +12,9 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.remote.SessionId;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserLaunching {
 
@@ -22,48 +22,25 @@ public class BrowserLaunching {
 	{
 		
 		System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
-		WebDriver driver = new  ChromeDriver();	
-		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);		
-		driver.get("https://www.instagram.com/");
+		WebDriver chrome = new  ChromeDriver();			
+		chrome.close();
+		chrome.quit();
 		
 		
-		Dimension windowsize =	driver.manage().window().getSize();
+		System.setProperty("webdriver.gecko.driver","D:\\Siddhi_Repo\\Siddhi_Notes_Repo\\Selenium_Practices\\chromedriver\\geckodriver.exe");
+		WebDriver ff = new  FirefoxDriver();			
+		ff.close();
+		ff.quit();
 		
-		System.out.println(windowsize.height);
-		System.out.println(windowsize.width);
-
-//		driver.manage().window().maximize();
-//		Thread.sleep(5000);
-//		driver.manage().window().fullscreen();
-	
-		Thread.sleep(5000);
+		System.setProperty("webdriver.edge.driver","D:\\Siddhi_Repo\\Siddhi_Notes_Repo\\Selenium_Practices\\chromedriver\\msedgedriver.exe");
+		WebDriver edge = new  EdgeDriver();			
+		edge.close();
+		edge.quit();
 		
-		
-		Dimension dim = new Dimension(1366, 768);
-		
-		
-		driver.manage().window().setSize(dim);
-		
-		Dimension windowsize1 =	driver.manage().window().getSize();
-		System.out.println(windowsize1.height);
-		System.out.println(windowsize1.width);
-		
-		
-		Thread.sleep(5000);
-		
-		Point point =  driver.manage().window().getPosition();
-		System.out.println(point.x);
-		System.out.println(point.y);
-		
-		Point winpoint = new Point(20, 20);
-		
-		
-		driver.manage().window().setPosition(winpoint);
-		
-		
-		Thread.sleep(5000);
-		driver.close();
-		driver.quit();
+		System.setProperty("webdriver.ie.driver","D:\\Siddhi_Repo\\Siddhi_Notes_Repo\\Selenium_Practices\\chromedriver\\IEDriverServer.exe");
+		WebDriver ie = new  InternetExplorerDriver();			
+		ie.close();
+		ie.quit();
 		
 		
 	}

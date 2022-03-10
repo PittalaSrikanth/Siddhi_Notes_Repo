@@ -1,0 +1,20 @@
+
+-- for hud 
+docker run -d -p 4545:4444 --name selenium-hub selenium/hub
+
+-- for node
+docker run -d -P --link  selenium-hub:hub selenium/node-chrome-debug
+
+-- for node
+docker run -d -P --link  selenium-hub:hub selenium/node-firefox-debug
+
+
+--for list of running images
+docker ps -a
+
+--for list of images id's
+docker ps
+
+
+--for stop image
+docker stop image_Id
