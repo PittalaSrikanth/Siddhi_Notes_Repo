@@ -27,7 +27,7 @@ public class RemoteWebElementMethods
 		WebDriver driver = new  ChromeDriver();	
 		
 //		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(1));
+//		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(1));
 		
 //		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");

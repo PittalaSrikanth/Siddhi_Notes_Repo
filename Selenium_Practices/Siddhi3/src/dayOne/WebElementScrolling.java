@@ -20,7 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class ToolsQA {
+public class WebElementScrolling {
 
 	public static void main(String[] args) throws InterruptedException, MalformedURLException 
 	{
@@ -38,15 +38,19 @@ public class ToolsQA {
 			
 			JavascriptExecutor js  = ((JavascriptExecutor)driver);				
 			
-			js.executeScript("window.location='https://accounts.google.com/signup'");
+			js.executeScript("window.location='https://demo.guru99.com/test/guru99home/scrolling.html'");
 			
 			
 			js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 			Thread.sleep(5000);
 			js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
-			js.executeScript("document.querySelector('.MocG8c.B9IrJb.LMgvRb.KKjvXb').click()");
+			
+			WebElement ele = driver.findElement(By.xpath("//*[@id='rt-feature']"));
+			
+			
+			js.executeScript("arguments[0].scrollBy(200,0)",ele);
 			Thread.sleep(5000);
-			js.executeScript("document.querySelector('.OA0qNb.ncFHed').scrollBy(0,200)");
+//			js.executeScript("document.querySelector('.OA0qNb.ncFHed').scrollBy(0,200)");
 			
 			
 			
