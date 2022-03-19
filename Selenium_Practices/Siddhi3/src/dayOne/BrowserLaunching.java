@@ -5,7 +5,7 @@ import java.net.URL;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.xml.utils.URI;
+//import org.apache.xml.utils.URI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Platform;

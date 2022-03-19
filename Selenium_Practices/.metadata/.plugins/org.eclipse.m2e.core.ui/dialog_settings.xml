@@ -60,10 +60,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="mavenproject3"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="mavenproject3"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

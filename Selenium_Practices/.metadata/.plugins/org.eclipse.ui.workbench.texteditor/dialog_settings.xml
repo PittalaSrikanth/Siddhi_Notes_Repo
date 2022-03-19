@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="maven"/>
+		<item key="selection" value="html"/>
 		<list key="findhistory">
+			<item value="html"/>
 			<item value="maven"/>
 			<item value="junit"/>
 			<item value="java"/>
@@ -22,7 +23,6 @@
 			<item value="4991"/>
 			<item value="chrome"/>
 			<item value="5551"/>
-			<item value="4446"/>
 		</list>
 		<list key="replacehistory">
 			<item value="chrome"/>

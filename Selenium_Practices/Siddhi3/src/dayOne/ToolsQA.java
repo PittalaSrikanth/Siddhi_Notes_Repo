@@ -7,9 +7,13 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 public class ToolsQA {
 
@@ -22,15 +26,32 @@ public class ToolsQA {
 		{
 			System.setProperty("webdriver.chrome.driver","D:\\Selenium_Practices\\chromedriver\\chromedriver.exe");
 			driver = new  ChromeDriver();	
-			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);		
-			driver.get("https://www.facebook.com/");
+			driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 			
-		List<WebElement> inputtags	= driver.findElements(By.tagName("input"));
+			Actions action = new Actions(driver);
+			WebElement user = driver.findElement(By.id("txtUsername"));
+			WebElement pass = driver.findElement(By.id("txtPassword"));
+
+			
+			action.click(user).keyDown(Keys.SHIFT).
+			sendKeys(user,"admin").keyUp(Keys.SHIFT).
+			click(pass).sendKeys("admin123").sendKeys(Keys.ENTER);
+			
+			
+			
 		
-		System.out.println(inputtags.size());
 			
 			
-			driver.findElement(By.partialLinkText("password?")).click();
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
 			
 			Thread.sleep(5000);
 		} 

@@ -1,3 +1,4 @@
+docker --version
 
 -- for hud 
 docker run -d -p 4545:4444 --name selenium-hub selenium/hub
@@ -18,3 +19,102 @@ docker ps
 
 --for stop image
 docker stop image_Id
+
+--for docker version
+docker -v
+
+--for docker infomation
+docker info
+
+--for doker images list & its versions
+docker images
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
