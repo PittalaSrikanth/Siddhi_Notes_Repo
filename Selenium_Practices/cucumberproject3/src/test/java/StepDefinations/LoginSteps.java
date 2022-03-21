@@ -2,7 +2,8 @@ package StepDefinations;
 
 import io.cucumber.java.en.*;
 
-public class LoginSteps {
+public class LoginSteps 
+{	
 	@Given("User is on login page")
 	public void user_is_on_login_page() 
 	{
