@@ -38,20 +38,13 @@ public class BothHoriAndVert {
 			
 			JavascriptExecutor js  = ((JavascriptExecutor)driver);				
 			
-			js.executeScript("window.location='https://www.amazon.in/?&ext_vrnc=hi&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=58075519359&hvpone=&hvptwo=&hvadid=486462454211&hvpos=&hvnetw=g&hvrand=13264686186473180842&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9300288&hvtargid=kwd-64107830&hydadcr=14452_2154371&gclid=Cj0KCQjw29CRBhCUARIsAOboZbJs18m7jVw0ZVt44gEDtenPoEl16mtn_J7p3pQGGqFhHD0_TR2jmTQaAhP2EALw_wcB'");
+			js.executeScript("window.location='https://demoqa.com/slider'");
 			
 			
-			js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-			Thread.sleep(5000);
-			js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
-			
-			
-			js.executeScript("window.scrollTo(document.body.scrollHeight,0)");
-			Thread.sleep(5000);
-			js.executeScript("window.scrollTo(-document.body.scrollHeight,0)");
-			
+			driver.findElement(By.cssSelector(".range-slider__wrap>input")).sendKeys(Keys.ARROW_RIGHT);
 			
 			Thread.sleep(5000);
+			
 		} 
 		catch (Exception e)
 		{

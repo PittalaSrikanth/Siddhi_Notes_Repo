@@ -19,5 +19,17 @@
 	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/commons-io-2.11.0-bin (3)/commons-io-2.11.0/commons-io-2.11.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/commons-io-2.11.0-bin (3)/commons-io-2.11.0/commons-io-2.11.0-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/commons-io-2.11.0-bin (3)/commons-io-2.11.0/commons-io-2.11.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/webdrivermanager-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/jarchivelib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/spittala/Downloads/jar_files (8)/slf4j-api-1.7.25.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

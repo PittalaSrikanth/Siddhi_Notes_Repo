@@ -1,5 +1,9 @@
 package dayOne;
 
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.util.List;
@@ -38,24 +42,16 @@ public class WebElementScrolling {
 			
 			JavascriptExecutor js  = ((JavascriptExecutor)driver);				
 			
-			js.executeScript("window.location='https://demo.guru99.com/test/guru99home/scrolling.html'");
+			js.executeScript("window.location='https://demoqa.com/automation-practice-form'");
 			
-			
-			js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-			Thread.sleep(5000);
-			js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
-			
-			WebElement ele = driver.findElement(By.xpath("//*[@id='rt-feature']"));
-			
-			
-			js.executeScript("arguments[0].scrollBy(200,0)",ele);
-			Thread.sleep(5000);
-//			js.executeScript("document.querySelector('.OA0qNb.ncFHed').scrollBy(0,200)");
-			
-			
-			
+			driver.findElement(By.xpath("//label[@for='uploadPicture']")).click();
 			
 			Thread.sleep(5000);
+			
+			Runtime.getRuntime().exec("C:\\Users\\spittala\\Desktop\\FileUpload_autoit.exe");
+			
+			
+			Thread.sleep(15000);
 		} 
 		catch (Exception e)
 		{
