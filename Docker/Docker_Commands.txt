@@ -29,7 +29,8 @@ docker info
 --for doker images list & its versions
 docker images
 
-
+--for remove docker image
+docker rm image_Id
 
 
 
