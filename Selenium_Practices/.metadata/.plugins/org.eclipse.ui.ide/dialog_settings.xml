@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Automation\Siddhi_Notes_Repo\Selenium_Practices"/>
 			<item value="D:\AutomationProject\AutomationProject"/>
 			<item value="D:\Selenium_Practices"/>
 			<item value="C:\Users\spittala\Downloads\nopCommerceV1-master"/>
