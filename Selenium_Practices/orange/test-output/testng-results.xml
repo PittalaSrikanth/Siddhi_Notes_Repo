@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78" started-at="2021-11-11T17:40:57 IST" finished-at="2021-11-11T17:40:57 IST">
+  <suite name="Suite" duration-ms="36" started-at="2022-04-11T13:21:27 IST" finished-at="2022-04-11T13:21:27 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78" started-at="2021-11-11T17:40:57 IST" finished-at="2021-11-11T17:40:57 IST">
+    <test name="Test" duration-ms="36" started-at="2022-04-11T13:21:27 IST" finished-at="2022-04-11T13:21:27 IST">
       <class name="orange.MVNDemo">
-        <test-method status="PASS" signature="MVNDEmo_MethodFive()[pri:0, instance:orange.MVNDemo@46daef40]" name="MVNDEmo_MethodFive" duration-ms="11" started-at="2021-11-11T17:40:57 IST" finished-at="2021-11-11T17:40:57 IST">
+        <test-method status="PASS" signature="MVNDEmo_MethodFive()[pri:0, instance:orange.MVNDemo@12f41634]" name="MVNDEmo_MethodFive" duration-ms="5" started-at="2022-04-11T13:21:27 IST" finished-at="2022-04-11T13:21:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MVNDEmo_MethodFive -->
-        <test-method status="PASS" signature="MVNDEmo_MethodFour()[pri:0, instance:orange.MVNDemo@46daef40]" name="MVNDEmo_MethodFour" duration-ms="2" started-at="2021-11-11T17:40:57 IST" finished-at="2021-11-11T17:40:57 IST">
+        <test-method status="PASS" signature="MVNDEmo_MethodFour()[pri:0, instance:orange.MVNDemo@12f41634]" name="MVNDEmo_MethodFour" duration-ms="1" started-at="2022-04-11T13:21:27 IST" finished-at="2022-04-11T13:21:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MVNDEmo_MethodFour -->
-        <test-method status="PASS" signature="MVNDEmo_MethodOne()[pri:0, instance:orange.MVNDemo@46daef40]" name="MVNDEmo_MethodOne" duration-ms="4" started-at="2021-11-11T17:40:57 IST" finished-at="2021-11-11T17:40:57 IST">
+        <test-method status="PASS" signature="MVNDEmo_MethodOne()[pri:0, instance:orange.MVNDemo@12f41634]" name="MVNDEmo_MethodOne" duration-ms="0" started-at="2022-04-11T13:21:27 IST" finished-at="2022-04-11T13:21:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MVNDEmo_MethodOne -->
-        <test-method status="PASS" signature="MVNDEmo_MethodThree()[pri:0, instance:orange.MVNDemo@46daef40]" name="MVNDEmo_MethodThree" duration-ms="2" started-at="2021-11-11T17:40:57 IST" finished-at="2021-11-11T17:40:57 IST">
+        <test-method status="PASS" signature="MVNDEmo_MethodThree()[pri:0, instance:orange.MVNDemo@12f41634]" name="MVNDEmo_MethodThree" duration-ms="1" started-at="2022-04-11T13:21:27 IST" finished-at="2022-04-11T13:21:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MVNDEmo_MethodThree -->
-        <test-method status="PASS" signature="MVNDEmo_MethodTwo()[pri:0, instance:orange.MVNDemo@46daef40]" name="MVNDEmo_MethodTwo" duration-ms="2" started-at="2021-11-11T17:40:57 IST" finished-at="2021-11-11T17:40:57 IST">
+        <test-method status="PASS" signature="MVNDEmo_MethodTwo()[pri:0, instance:orange.MVNDemo@12f41634]" name="MVNDEmo_MethodTwo" duration-ms="1" started-at="2022-04-11T13:21:27 IST" finished-at="2022-04-11T13:21:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MVNDEmo_MethodTwo -->
       </class> <!-- orange.MVNDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
