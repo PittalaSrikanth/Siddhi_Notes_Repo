@@ -82,8 +82,10 @@ public class ChromeDriver extends RemoteWebDriver{
 	
 	public static void main(String[] args) 
 	{
-		RemoteWebDriver rw = new ChromeDriver();
+		WebDriver rw = new ChromeDriver();
 		
+		
+		WebDriver.add();
 	}
 
 }
