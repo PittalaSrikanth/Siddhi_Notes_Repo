@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-    <libraryInfo home="C:\Program Files\Java\jdk1.8.0_321\bin" version="1.8.0_321">
-        <bootpath>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar"/>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar"/>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar"/>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar"/>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar"/>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar"/>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar"/>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
-        </bootpath>
-        <extensionDirs>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext"/>
-            <entry path="C:\Windows\Sun\Java\lib\ext"/>
-        </extensionDirs>
-        <endorsedDirs>
-            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
-        </endorsedDirs>
-    </libraryInfo>
     <libraryInfo home="C:\Program Files\Java\jre1.8.0_291" version="1.8.0_291">
         <bootpath>
             <entry path="C:\Program Files\Java\jre1.8.0_291\lib\resources.jar"/>
@@ -38,8 +19,48 @@
             <entry path="C:\Program Files\Java\jre1.8.0_291\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
-    <libraryInfo home="C:\Program Files\Java\jdk-11.0.14" version="11.0.14"/>
     <libraryInfo home="C:\Program Files\Java\jdk-11.0.13\bin" version="11.0.13"/>
+    <libraryInfo home="C:\Program Files\Java\jdk-11.0.15.1" version="11.0.15.1"/>
+    <libraryInfo home="C:\Users\spittala\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955" version="15.0.2"/>
+    <libraryInfo home="C:\Program Files\Java\jre1.8.0_321\bin" version="1.8.0_321">
+        <bootpath>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\resources.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\rt.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\jce.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\Java\jdk1.8.0_321\bin" version="1.8.0_321">
+        <bootpath>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\Java\jdk-11.0.14" version="11.0.14"/>
     <libraryInfo home="C:\Program Files\Java\jdk1.8.0_291" version="1.8.0_291">
         <bootpath>
             <entry path="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar"/>
@@ -79,24 +100,7 @@
         </endorsedDirs>
     </libraryInfo>
     <libraryInfo home="C:\Users\spittala\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre" version="15.0.2"/>
-    <libraryInfo home="C:\Users\spittala\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955" version="15.0.2"/>
-    <libraryInfo home="C:\Program Files\Java\jre1.8.0_321\bin" version="1.8.0_321">
-        <bootpath>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\resources.jar"/>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\rt.jar"/>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\sunrsasign.jar"/>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\jsse.jar"/>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\jce.jar"/>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\charsets.jar"/>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\jfr.jar"/>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\classes"/>
-        </bootpath>
-        <extensionDirs>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\ext"/>
-            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
-        </extensionDirs>
-        <endorsedDirs>
-            <entry path="C:\Program Files\Java\jre1.8.0_321\lib\endorsed"/>
-        </endorsedDirs>
-    </libraryInfo>
+    <libraryInfo home="C:\Program Files\Java\jdk-11.0.15.1\bin" version="11.0.15.1"/>
+    <libraryInfo home="C:\Users\spittala\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614" version="18.0.1"/>
+    <libraryInfo home="C:\Users\spittala\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\jre" version="18.0.1"/>
 </libraryInfos>

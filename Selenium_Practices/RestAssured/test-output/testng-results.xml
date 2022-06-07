@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-07T20:53:13 IST" name="Default suite" finished-at="2022-06-07T20:53:17 IST" duration-ms="3441">
+    <groups>
+    </groups>
+    <test started-at="2022-06-07T20:53:13 IST" name="Default test" finished-at="2022-06-07T20:53:17 IST" duration-ms="3441">
+      <class name="dataDriverTest.TC008_DD_GET_Request_DataProvider">
+        <test-method signature="AddUsers(java.lang.String,java.lang.String)[pri:0, instance:dataDriverTest.TC008_DD_GET_Request_DataProvider@41fecb8b]" started-at="2022-06-07T20:53:14 IST" name="AddUsers" data-provider="new_users_list" finished-at="2022-06-07T20:53:16 IST" duration-ms="2043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Srikanth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUsers -->
+        <test-method signature="AddUsers(java.lang.String,java.lang.String)[pri:0, instance:dataDriverTest.TC008_DD_GET_Request_DataProvider@41fecb8b]" started-at="2022-06-07T20:53:16 IST" name="AddUsers" data-provider="new_users_list" finished-at="2022-06-07T20:53:16 IST" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUsers -->
+        <test-method signature="AddUsers(java.lang.String,java.lang.String)[pri:0, instance:dataDriverTest.TC008_DD_GET_Request_DataProvider@41fecb8b]" started-at="2022-06-07T20:53:16 IST" name="AddUsers" data-provider="new_users_list" finished-at="2022-06-07T20:53:17 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sathish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUsers -->
+      </class> <!-- dataDriverTest.TC008_DD_GET_Request_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

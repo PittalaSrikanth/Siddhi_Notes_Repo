@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="packageThree.PackageThree_ClassOne">
+        <methods>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- packageThree.PackageThree_ClassOne -->
+      <class name="packageOne.PackageOne_ClassFour">
+        <methods>
+          <include name="ClassThreemethonThree"/>
+          <include name="ClassThreemethonNine"/>
+        </methods>
+      </class> <!-- packageOne.PackageOne_ClassFour -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
